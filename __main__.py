@@ -21,9 +21,9 @@ while True:
     print(display)
 
     if lives == -1:
-        print("You have lost!")
+        print("You lose!")
         break
 
     if '_' not in display:
-        print("You have won!")
+        print("You win!")
         break
